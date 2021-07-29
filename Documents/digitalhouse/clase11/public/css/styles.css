@@ -1,0 +1,281 @@
+*{
+font-family: 'roboto';
+margin: ​0​px​;
+padding: ​0​px​;
+box-sizing: ​border-box​; 
+}
+
+main section article i{ 
+    display: ​block​;
+    font-size: ​16​px​;
+    padding: ​5​px​;
+    width: ​30​px​;
+    height: ​30​px​;
+    border: ​1​px​ ​solid​ ​#39b54a​; 
+    background-color: ​#FFF​; 
+    border-radius: ​50​%​; 
+    position: ​absolute​;
+    right: ​20​px​;
+    top: ​-15​px​; }
+
+    .listas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+
+body {
+    margin: 2%;
+    background-color: #fff159;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+img{
+    max-width:100%;
+    max-height:100%;
+    margin: auto;
+    display: block;
+    
+}
+.logoimage {
+    max-width: 50%;
+    
+}
+.barra {
+    width: 30%;
+    
+ }
+
+
+ 
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.block {
+    width: 100%;
+}
+
+.compresin {
+    text-align: center;
+}
+
+
+
+
+.camion {
+    text-align: right;
+    i {
+  background-color: white;
+  border-radius: 50%;
+  border: 1x solid grey;
+  padding: 10px;
+}
+}
+
+
+
+#listaA {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#listaB {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+li {
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+main {
+   
+    text-align: center ;
+    width: 100%;
+    margin: auto;
+    display: block;
+    background-color: #ebebeb;
+    }
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+   
+    width: 50%;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+
+article {
+    
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    
+    }
+
+    
+
+
+
+
+    
+
+
+@media (max-width:361px) {
+    nav {
+    display: none;
+    }
+    
+}
+
+
+    
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+
+
+.precio {
+    font-size: 16px;
+    float: left;
+    width: 30%;
+    
+
+   
+}
+
+.desc {
+   
+    font-size: 16px;
+    color: #39b54a;
+    float: left;
+    width: 70%;
+  
+}
+
+.nombredeproducto {
+    padding-top: 10%;
+}
+
+
+   
+.burger-menu {
+    display: flex;
+    font-size: 50px;
+    margin: 25px;
+    justify-content: center; 
+    color: white; 
+}
+@media (min-width:361px) {
+    .burger-menu {
+        display: none;
+    }
+    article {
+        box-shadow: 0px 0px 10px #666666;
+        }
+    nav {
+        display: block;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+@media (min-width:769px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+    
+.columna {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+}    
+    }
+
+
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+.description {
+border-top: solid 1px #ebebeb;
+text-align: start;
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color: #666;
+    
+   
+}
+
+.textofooter {
+    width: 60%;
+}
+
+.tarjetafooter {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#tarjeta{
+    color: blue;
+}
+
+#copyright{
+    text-align: left;
+}
+
+
+
+  
